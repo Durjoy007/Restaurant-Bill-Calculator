@@ -1,0 +1,14 @@
+"""You have $200 in your pocket & you go to a restaturant.You just finished eating at a restaurant & received the bill:
+Cost of meal: $44.50 Dollars 
+Restaurant tax: 6.75%
+Tip: 15%"""
+
+#Solution:
+money_in_pocket = float(200)
+meal = 44.50
+tax = 6.75 / 100
+tip = float(15) / 100
+
+meal_cost = (meal + tax) + tip
+money_in_pocket -= meal_cost
+print (money_in_pocket)
